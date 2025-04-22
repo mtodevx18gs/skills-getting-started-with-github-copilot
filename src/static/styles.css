@@ -84,6 +84,14 @@ section h3 {
 .activity-card ul li {
   margin-bottom: 5px;
   font-size: 14px;
+  color: #333;
+}
+
+.activity-card ul li::before {
+  content: "👤 ";
+  color: #0066cc;
+  font-size: 14px;
+  margin-right: 5px;
 }
 
 .form-group {
